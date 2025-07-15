@@ -67,19 +67,25 @@ header{
   text-decoration: none;
 }
 
+.head-des{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .header-content{
   text-align: center;
   color: rgba(37, 36, 50, 1);
   font-size: 65px;
   font-weight: bold;
   width: 905px;
-  margin-left: 290px;
+  /* margin-left: 260px;
   margin-top: 50px;
-  padding-top: 150px;
+  padding-top: 150px; */
 }
 
 .stay-focused{
-  margin-left: 640px
+  margin-left: 350px
 }
 
 /* main styles */
@@ -186,6 +192,10 @@ main{
   padding: 20px;
 }
 
+.feedback-cards:hover{
+  background-color: rgb(209, 205, 205);
+}
+
 .user-intro h5{
   font-weight: bold;
   color: rgb(128, 120, 120);
@@ -290,4 +300,52 @@ form input[type="submit"]{
   width: 537px;
   height: 62px;
   padding: 10px 20px;
+}
+
+/* footer styles */
+
+footer{
+  background-color: white;
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-container{
+  width: 531px;
+  padding-bottom: 100px;
+}
+
+.footer-logo{
+  font-size: 100px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.footer-subtitle{
+  text-align: center;
+  color: rgba(137, 135, 161, 1);
+  font-family: sans-serif;
+  margin-bottom: 30px;
+}
+
+footer ul li{
+  list-style: none;
+  display: inline;
+  margin-right: 30px;
+  font-family: sans-serif;
+
+}
+
+footer ul li a{
+  text-decoration: none;
+  color: rgba(137, 135, 161, 1);
+}
+
+.links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
